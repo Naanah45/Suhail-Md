@@ -11,10 +11,10 @@ global.email ="samsamsun789@gmail.com"
 global.location="Lahore,Pakistan."
 
 
-global.mongodb= process.env.MONGODB_URI || ""
+global.mongodb= process.env.MONGODB_URI || "mongodb+srv://ayanokoji:ayanokoji12@ayanokoji.ngizodh.mongodb.net/?retryWrites=true&w=majority"
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
-global.DATABASE_URL = process.env.DATABASE_URL || ""
+global.DATABASE_URL = process.env.DATABASE_URL || "postgres://delvinn1_user:KqgS44YixgEcENTQaccxgqekNlhtoXkz@dpg-coc4e7m3e1ms73augtq0-a.oregon-postgres.render.com/delvinn1"
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Accra";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
